@@ -5,7 +5,7 @@ import './header.css';
 import headerlogo from '../../Assets/PNG/Header_logo.png'
 const Header = () => {
   return (
-    <div className='header_container'>
+    <div className='header_container' id='home'>
       <div className='header_title_container'>
         <div className='header_title'>
         <AnimatedText className='animationss' children='ReactText' type='words' interval={0.04}  duration={0.4} animation={{ y: '100px', ease: 'ease', type:'float' }}>
@@ -17,7 +17,9 @@ const Header = () => {
           {/* <h1>HEADING TAGLINE</h1> */}
           {/* <h1>LOREM IPSUM</h1> */}
           {/* <h1>LOREM IPSUM</h1> */}
-          <button className='header_button'>MEET ME</button>
+          <div><a href='#contact'>
+          <button className='header_button'>MEET ME</button></a>
+          </div>
           <p>Lorem ipsLorem ipsum dolor sit amet, consectetur adipiscing elit. 
           In sed sem et tortor rutrum venenatis. 
           Proin pretium massa a enim porttitor fringilla.</p>

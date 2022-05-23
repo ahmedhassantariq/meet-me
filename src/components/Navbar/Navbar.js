@@ -21,8 +21,10 @@ const Navbar = () => {
             <div className='navbar_links'>
                 <Menu/>
             </div>
-            
+            <div><a href='#contact'>
             <button className='navbar_button'>Business</button>
+            </a>
+            </div>
 
 </div>
   )

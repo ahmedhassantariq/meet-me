@@ -23,6 +23,13 @@ a {
 
 }
 
+a:hover {
+
+    color: #173054;
+
+
+}
+
 .navbar_logo {
     width: 70px;
     margin-left: 2rem;
@@ -30,7 +37,6 @@ a {
 
 .navbar_button{
     background-color: #081830;
-
     border:3px solid #FFFFFF;
     border-radius:25px;
     text-decoration:none;
@@ -41,6 +47,7 @@ a {
     transition: all 0.2s;
     height: 40px;
     width: 125px;
+    cursor: pointer;
 }
 
 .navbar_button:hover{

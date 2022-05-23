@@ -3,7 +3,7 @@ import BlogsGrid from './BlogsGrid/BlogsGrid';
 import './blogs.css';
 const Blogs = () => {
   return (
-    <div className='blogs_container'>
+    <div className='blogs_container' id='blogs'>
         <div className='blogs_titles'>
           <h1 className='blogs_title_shadow'>BLOGS</h1>
           <h1 className='blogs_title'>BLOGS</h1>
