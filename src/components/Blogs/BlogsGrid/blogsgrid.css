@@ -11,7 +11,7 @@
 }
 
 .card_grid {
-    gap: 2rem;
+    gap: 1rem;
     display: flex;
     flex-direction: row;
 }
@@ -19,7 +19,7 @@
 .multiple_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 /* .single_card {

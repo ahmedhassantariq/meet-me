@@ -60,7 +60,7 @@
     background-color: #102542;
 }
 
-.portfoliocard_heading h1 {
+.portfoliocard_heading h2 {
     color: #ffffff;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -71,17 +71,7 @@
 }
 
 
-/* .arrow-left {
-    position: relative;
-    left: 650px;
-    width: 0; 
-    height: 0; 
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent; 
-    border-right:20px solid white; 
-    transition: 2s;
-    z-index: 0;
-} */
+
   
 .portfolio_content{
     display: flex;
@@ -90,9 +80,26 @@
     background-color: #173054;
     width: 70%;
     border-radius: 0px 5px 5px 0px;
-    padding: 2rem;
+    padding: 1rem;
 }
 .portfolio_content h1, .portfolio_content p {
     color: #ffffff;
     max-width: 500px;
+}
+
+.portfolio_content h1 {
+    cursor: pointer;
+    
+}
+.display_container h1:hover {
+    color: #041021 ;
+    
+}
+
+.portfolio_content img {
+    width: 200px;
+}
+
+.portfolio_content_attribute {
+    border: none;
 }

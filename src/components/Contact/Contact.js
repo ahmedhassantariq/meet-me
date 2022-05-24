@@ -15,11 +15,11 @@ const Contact = () => {
           <textarea placeholder='Message' id='message' className='contact-textfield_message'/>
           <button className='contact_button'>Send</button>
           <div className='contact-logo-container'>
-          <img src={pinlogo} alt='pinglogo'/>
-          <img src={instalogo} alt='instalogo'/>
-          <img src={facebooklogo} alt='twitterlogo'/>
-          <img src={twitterlogo} alt='twitterlogo'/>
-          <img src={whatslogo} alt='whatslogo'/>          
+          <a className='container_attribute' href="https://www.pinterest.com/ahmedhassan00" target="_blank" rel='noreferrer'><img src={pinlogo} alt='pinglogo'/></a>
+          <a className='container_attribute' href="https://www.instagram.com/ahmedhassantariq/" target="_blank" rel='noreferrer' ><img src={instalogo} alt='instalogo'/></a>
+          <a className='container_attribute' href="https://www.facebook.com/ahmedhassantariq00" target="_blank" rel='noreferrer'><img src={facebooklogo} alt='twitterlogo'/></a>
+          <a className='container_attribute' href="https://twitter.com/ahmed_tariq00" target="_blank" rel='noreferrer'><img src={twitterlogo} alt='twitterlogo'/></a>
+          {/* <a5 className='container_attribute' href="https://www.pinterest.com/ahmedhassan00" target="_blank" rel='noreferrer'><img src={whatslogo} alt='whatslogo'/></a5>          */}
         </div>
         <p>2022©ahmedhassantariq.com.All rights reserved</p>
       </div>

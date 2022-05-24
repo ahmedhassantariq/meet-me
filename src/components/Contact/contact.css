@@ -20,6 +20,7 @@
     margin: 0;
     font-size: 54px;
     font-family: 'Fatcat', Regular;
+    letter-spacing: 4px;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -36,6 +37,7 @@
     opacity: 35%;
     font-size: 90px;
     font-family: 'Fatcat', Regular;
+    letter-spacing: 4px;
     cursor:default;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -112,4 +114,12 @@
 }
 .contact_container p {
     color: white;
+}
+.container_attribute {
+    border: none;
+}
+
+.contact_titles p {
+    letter-spacing: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

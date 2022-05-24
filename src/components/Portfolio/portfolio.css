@@ -22,6 +22,7 @@
     margin: 0;
     font-size: 54px;
     font-family: 'Fatcat', Regular;
+    letter-spacing: 4px;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -38,6 +39,7 @@
     opacity: 35%;
     font-size: 90px;
     font-family: 'Fatcat', Regular;
+    letter-spacing: 4px;
     cursor:default;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */

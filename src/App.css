@@ -9,3 +9,16 @@ body {
 html { 
   scroll-behavior: smooth; 
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #904747 #ab3636;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+ 

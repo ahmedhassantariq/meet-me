@@ -12,7 +12,7 @@
     gap: 3rem;
 }
 a {
-    font-family: 'Fatcat';
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
@@ -20,6 +20,7 @@ a {
     /* padding:0.35em 1.2em; */
     border: 3px solid #081830 ;
     transition: all 0.2s;
+    
 
 }
 
@@ -40,7 +41,7 @@ a:hover {
     border:3px solid #FFFFFF;
     border-radius:25px;
     text-decoration:none;
-    font-family:'Fatcat';
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color:#FFFFFF;
     text-align:center;
