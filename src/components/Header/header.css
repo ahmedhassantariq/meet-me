@@ -38,6 +38,15 @@
     font-size: 42px;
 }
 
+.header_button_div{
+    display: flex;
+}
+
+.header_attribute {
+    border: none;
+    background-color: blue;
+}
+
 
 
 .header_button {
