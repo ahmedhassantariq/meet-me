@@ -3,7 +3,7 @@ import './display.css';
 import headerlogo from '../../../Assets/SVG/logo.svg';
 
 const Display = () => {
-  const [stater, setStater] = useState(false);
+  const [stater, setStater] = useState(1);
   console.log(stater);
   return (
     <div className='display_container'>

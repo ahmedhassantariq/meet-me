@@ -6,7 +6,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
@@ -43,7 +43,8 @@ const DivCard = () => {
 const Singlecard = () => {
     return (
     <div className='single_card'>
-      <Card sx={{ maxWidth: 350, maxHeight:600 }}>
+    <a className='card_ref' href='https://google.com' target="_blank" rel='noreferrer'>
+      <Card sx={{ maxWidth: 350, maxHeight:318 }}>
         <CardMedia
           component="img"
           alt="green iguana"
@@ -58,14 +59,14 @@ const Singlecard = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Praesent maximus sapien a augue sodales accumsan. 
         Ut quis molestie mauris, eu rhoncus libero. 
-        Phasellus rhoncus scelerisque orci, vel ultrices lacus maximus vitae. 
-        Donec in felis quis ante elementum cursus et et ipsum.
+        
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        {/* <Button size="small">Learn More</Button> */}
       </CardActions>
       </Card>
+      </a>
       </div>
     );
 
@@ -74,6 +75,8 @@ const Singlecard = () => {
 
 const Multicard = () => {
   return (
+    <div className='multi_card'>
+    <a className='card_ref' href='https://google.com' target="_blank" rel='noreferrer'>
     <Card sx={{ maxWidth: 300, maxHeight:300}}>
       <CardMedia
         component="img"
@@ -82,6 +85,8 @@ const Multicard = () => {
         image={headerlogo}
       />
     </Card>
+    </a>
+    </div>
   );
 
 }

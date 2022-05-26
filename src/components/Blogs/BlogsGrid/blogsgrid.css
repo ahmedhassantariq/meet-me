@@ -37,3 +37,25 @@
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.single_card {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.single_card:hover {
+    transform: scale(1.05);
+}
+
+.multi_card {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.multi_card:hover {
+    transform: scale(1.05);
+}
+
+.card_ref {
+    border: none;
+}
