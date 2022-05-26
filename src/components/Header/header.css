@@ -86,5 +86,6 @@ border: none;
 .header_image_container img {
     padding: 1rem;
     margin-right: 5rem;
+    -webkit-user-drag: none;
     
 }
