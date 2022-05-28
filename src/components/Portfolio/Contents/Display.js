@@ -24,7 +24,7 @@ const Display = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Sed quam est, dignissim consectetur tristique et, pellentesque convallis leo. 
                 Etiam erat turpis, efficitur eu augue quis, vestibulum faucibus metus. 
-                Nunc et sem eu nisl suscipit lobortis lacinia at quam.</p>
+            </p>
 
                 </>)}
           {stater===2 &&(<>

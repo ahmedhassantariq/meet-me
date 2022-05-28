@@ -65,7 +65,7 @@ const Contact = () => {
           <a className='container_attribute' href="https://twitter.com/ahmed_tariq00" target="_blank" rel='noreferrer'><img src={twitterlogo} alt='twitterlogo'/></a>
           {/* <a5 className='container_attribute' href="https://www.pinterest.com/ahmedhassan00" target="_blank" rel='noreferrer'><img src={whatslogo} alt='whatslogo'/></a5>          */}
         </div>
-        <p>2022©ahmedhassantariq.com.All rights reserved</p>
+        <p>2022©MeeAhmed. All rights reserved</p>
       </div>
     </div>
   )
