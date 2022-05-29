@@ -16,9 +16,7 @@ const Blogs = () => {
           Nunc et sem eu nisl suscipit lobortis lacinia at quam. 
           Duis pellentesque elementum erat quis tempor. 
           Nullam dignissim orci a enim ultrices tincidunt. 
-          Proin egestas rhoncus mollis. 
-          Nullam semper ultricies dolor, quis mollis felis fermentum vestibulum. 
-          Nam ultricies pharetra tellus eu lacinia.</p>
+          Proin egestas rhoncus mollis.</p>
         </div>
     </div>
   )
